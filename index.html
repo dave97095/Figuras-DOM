@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras- DOM</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section>
+        <div class="cont-botones">
+            <h2>INTERACCIONES</h2>
+            <button onclick="circulo()" >CIRCULO</button>
+            <button onclick="rectangulo()">RECTANGULO</button>
+            <button onclick="triangulo()">TRIANGULO</button>
+            <button onclick="girar()">GIRAR</button>
+            <button onclick="arriba()">ARRIBA</button>
+            <button onclick="abajo()">ABAJO</button>
+            <button onclick="izquierda()">IZQUIERDA</button>
+            <button onclick="derecha()">DERECHA</button>
+            <button onclick="ocultar()">OCULTAR</button>
+            <button onclick="gif()">GIF</button>
+            <button onclick="degradado()">DEGRADADO</button>
+            <button onclick="panel()">PANEL LATERAL</button>
+            <button onclick="panelSupe()">PANEL SUPERIOR</button>
+            
+
+
+
+        </div>
+        <div class="cont-figura">
+            <h2>FIGURA</h2>
+            <div class="container2">
+                <div id="figura" class=""></div> 
+            </div>    
+        </div>    
+    </section>
+
+    
+<div class="panelIzq">
+
+    <a href="#" class="close" onclick="panel()">X</a>
+        <h3>Menú principal</h3>
+        <ul>
+            <a href="">inicio</a>
+            <a href="">mostrar</a>
+            <a href="">productos</a>
+            <a href="">contacto</a>
+        </ul>
+
+</div>
+<div class="panelSupe">
+    <a href="#" class="close1" onclick="panelSupe()">X</a>
+
+    
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
